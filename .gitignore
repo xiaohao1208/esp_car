@@ -1,0 +1,35 @@
+# PlatformIO 下载、依赖和构建缓存
+/.pio/
+
+# 编辑器和代码索引
+/.vscode/
+/.idea/
+/.clangd/
+/.cache/
+*.code-workspace
+
+# 编译中间文件和固件输出
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# Python 与测试缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# 日志、操作系统和临时文件
+*.log
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# include/car_interfaces 与 lib/*.a 是当前固件构建所需的
+# 固定 ESP32 接口产物，必须随接口版本一起提交。
